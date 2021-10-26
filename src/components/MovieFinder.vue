@@ -1,10 +1,6 @@
 <template>
   <div>
-   
-    <MovieFinder />
-    <MovieTimeFinder />
-
-
+    <h3>This be the movie finder</h3>
   </div>
 </template>
 

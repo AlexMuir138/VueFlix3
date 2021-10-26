@@ -1,8 +1,5 @@
 <template>
-  <div>
-   
-    <MovieFinder />
-    <MovieTimeFinder />
+  <div class="component">
 
 
   </div>
@@ -11,7 +8,7 @@
 
 <script>
 export default {
-  
+  name: 'component',
   setup(){
     return {}
   },
