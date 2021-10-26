@@ -1,8 +1,17 @@
 <template>
   <div>
-    <h4>This be the time finder</h4>
     <form @submit.prevent="findMovieTimes">
+      <div class="form-group d-flex align-items-center m-3
+      ">
 
+      <input v-model="query" 
+      type="text" 
+      name="search times" 
+      class="form-control bg-white border-0 m-2" 
+      placeholder="Search Times"
+      >
+      <button class="btn btn-secondary mx-3"></button>
+      </div>
     </form>
   </div>
 </template>
